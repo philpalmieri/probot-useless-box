@@ -1,6 +1,7 @@
 # probot-useless-app
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that 
+> A GitHub App built with [Probot](https://github.com/probot/probot) that closes a ticket you open.
+> Built entirely to test implementation of "probot-report-error": "github:philpalmieri/probot-report-error", and is intentionally broken/throwing errors to trigger the probot-error-ticket
 
 ## Setup
 
@@ -11,12 +12,6 @@ npm install
 # Run the bot
 npm start
 ```
-
-## Contributing
-
-If you have suggestions for how test-app could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
-
-For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
